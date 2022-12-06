@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+section,article{
+    border-bottom:5px solid gray;
+}
+section{
+    background-color: black;
+    padding-top:70px ;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+section .container{
+  width:70%;
+  margin: 0 auto;
+}
+.homepage{
+    width:100%;
+    height:100vh;
+   background: url('https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg') rgba(0,0,0,0.5);
+   background-blend-mode: darken;
+   background-repeat: no-repeat;
+   
+
+}
+.first_section_image{
+    position: relative;
+}
+.feature__image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  
+   
+}
+
+.homepage header{
+    display: flex;
+    padding:20px 100px 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.homepage header h1{
+    color: red;
+    font-size: 50px;
+}
+.homepage header button{
+    background-color: red;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.homepage header button a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.homepage .homecenter{
+    width: 40%;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-align: center;
+}
+.homepage .homecenter h1{
+    font-size:60px;
+    padding-bottom:10px;
+}
+.homepage .homecenter h6{
+    font-size: 30px;
+    padding-bottom:18px;
+}
+.homepage .homecenter .firstp{
+    font-size: 25px;
+    padding-bottom:18px;
+}
+.homepage .homecenter .secondp{
+    font-size: 20px;
+    padding-bottom:18px;
+}
+.homepage .homecenter .emailinput{
+    width: 100%;
+ 
+
+}
+.homepage .homecenter .emailinput input[type="email"]{
+    padding:20px;
+    font-size: 23px;
+    width:70%;
+    border:none;
+}
+.homepage .homecenter button{
+    width:30%;
+    padding:20px 10px;
+    background-color: red;
+    border:none;
+    color:white;
+    font-size: 24px;
+    
+}
+.section1 .container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.section1 .container .first_section_text{
+    width:45%;
+}
+
+.section1 .container .first_section_text{
+    
+    color: white;
+}
+.section1 .container .first_section_text h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    float: left;
+}
+.section1 .container .first_section_text p{
+    clear: both;
+    font-size: 30px;
+}
+.first_section_image{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+    background-repeat: no-repeat;
+
+}
+.section2 .container{
+    display: flex;
+    align-content: center;
+    
+    justify-content: space-between;
+   
+
+}
+
+
+
+.section2 .container .second_section_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.section2 .container .second_section_text h1{
+    font-size: 60px;
+}
+.section2 .container .second_section_text p{
+    font-size: 30px;
+}
+.section2 .container .second_image{
+    width: 100%;
+    height:100%;
+}
+
+
+.section3 .container{
+    display: flex;
+
+}
+.section3 .container .third_section_text{
+    width:50%;
+    color: white;
+}
+.section3 .container .third_section_text h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.section3 .container .third_section_text p{
+    font-size: 30px;
+}
+
+
+.section4 .container{
+    display: flex;
+ 
+    align-items: center;
+    
+    justify-content: space-around;
+}
+.section4 .container img{
+    width:100%;
+    height:100%
+}
+.section4 .container .section_four_image ,.section_four_text{
+    width:50%;
+}
+.section4 .container .section_four_text{
+    color: white;
+}
+.section4 .container .section_four_text h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.section4 .container .section_four_text p{
+    font-size: 30px;
+}
+
+
+.section6 .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section6 .container p{
+    color: gray;
+}
+.section6 .container ul{
+    list-style-type: none;
+
+}
+.section6 .container ul li{
+    padding:10px;
+}
+.section6 .container ul a{
+    text-decoration: none;
+    color: gray;
+}
+.section6 .container ul a:hover{
+    border-bottom: 1px solid gray;
+
+}
+
+footer{
+    width:100;
+    padding:15px;
+    color: gray;
+    background-color: black;
+    text-align: center;
+}
+
+
+.section5 .container .FAQ__list{
+      width:70%;
+      margin: 0 auto;
+}
+.FAQ__title{
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    padding:20px 20px;
+    color: white;
+}
+.FAQ__accordian .FAQ__title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.FAQ__visible{
+    background-color: rgb(82, 80, 80);
+    margin:5px;
+    color:white;
+    font-size: 30px;
+    padding:10px;
+    display: none;
+}
+.FAQ__get__started__email{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    font-weight: none;
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.FAQ__get__started__email h3{
+    color:white;
+    font-size: 20px;
+    font-weight: none;
+   
+    text-align: center;
+}
+.email__form__container{
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form__container{
+    width:70%;
+}
+.primary__button{
+    width:20%;
+    background-color: red;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+}
+.email__input{
+    padding:20px;
+    width:100%;
+    border: none;
+}
+
+
+@media screen and (max-width: 1230px){
+    .homepage .homecenter{
+        width:70%;
+    }
+    .homepage{
+        height: 90vh;
+    }
+    .section1 .container{
+        flex-direction: column;
+    }
+    .section1 .container .first_section_text{
+        width:100%;
+    }
+    .section2 .container{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .section3 .container .third_section_text{
+        width:100%;
+        color: white;
+    }
+    
+.section4 .container{
+    flex-direction: column;
+    flex-flow: column-reverse;
+}
+.section4 .container .section_four_image ,.section_four_text{
+    width:100%;
+}
+.email__form__container{
+    flex-direction: column;
+}
+.primary__button{
+    width:30%;
+    background-color: red;
+    padding:10px 20px ;
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 1030px){
+    section .container{
+        width:80%;
+        margin: 0 auto;
+      }
+
+
+      .homepage .homecenter h1{
+        font-size:50px;
+        padding-bottom:10px;
+    }
+    .homepage .homecenter h6{
+        font-size: 25px;
+        padding-bottom:18px;
+    }
+    .homepage .homecenter .firstp{
+        font-size: 20px;
+        padding-bottom:18px;
+    }
+    .homepage .homecenter .secondp{
+        font-size: 17px;
+        padding-bottom:18px;
+    }
+    .homepage .homecenter .emailinput input[type="email"]{
+        padding:15px;
+        font-size: 23px;
+        width:60%;
+        border:none;
+    }
+    .homepage .homecenter .emailinput{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homepage .homecenter .emailinput input[type="email"]{
+        padding:15px;
+        font-size: 23px;
+        width:70%;
+        border:none;
+    }
+    .homepage .homecenter button{
+        width:30%;
+        padding:15px 10px;
+        background-color: red;
+        border:none;
+        color:white;
+        font-size: 17px;
+        margin-top: 10px;
+        
+    }
+    .FAQ__visible{
+        background-color: rgb(82, 80, 80);
+        margin:5px;
+        color:white;
+        font-size: 20px;
+        padding:10px;
+        display: none;
+    }
+    .homepage{
+        height: 90vh;
+    }
+    .section1 .container .first_section_text h1{
+        padding-bottom: 20px;
+        font-size: 40px;
+        float: left;
+    }
+    .section1 .container .first_section_text p{
+        clear: both;
+        font-size: 25px;
+    }
+
+    .section3 .container .third_section_text h1{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .section3 .container .third_section_text p{
+        font-size: 25px;
+    }
+    .section2 .container .second_section_text h1{
+        font-size: 50px;
+    }
+    .section2 .container .second_section_text p{
+        font-size: 25px;
+    }
+    .section4 .container .section_four_text h1{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .section4 .container .section_four_text p{
+        font-size: 25px;
+    }
+    .section5 .container .FAQ__list{
+        width:85%;
+        margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px){
+    .homepage header{
+        display: flex;
+        padding:20px 50px 20px 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .homepage header h1{
+        color: red;
+        font-size: 35px;
+    }
+    .homepage header button{
+        background-color: red;
+        border:none;
+        padding:10px 20px;
+        border-radius: 10px;
+    }
+    .homepage header button a{
+        text-decoration: none;
+        color:white;
+        font-size: 15px;
+    }
+    .section2 .container .second_section_text h1{
+        font-size: 40px;
+    }
+    .section2 .container .second_section_text p{
+        font-size: 20px;
+    }
+    .section5 .container .FAQ__list{
+        width:100%;
+        margin: 0 auto;
+  }
+  .section6 .container{
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex: 2;
+  
+}
+.homepage .homecenter{
+    width: 100%;
+   
+ 
+}
+.form__container{
+    width:100%;
+}
+.email__form__container{
+    width:100%;
+}
+section{
+    width:100%
+}
+.email__input{
+    width:100%;
+}
+}
+
+@media screen and (max-width: 600px){
+    .section1 .container .first_section_text h1{
+        padding-bottom: 20px;
+        font-size: 30px;
+        float: left;
+    }
+    .section1 .container .first_section_text p{
+        clear: both;
+        font-size: 20px;
+    }
+    .section2 .container .second_section_text h1{
+        font-size: 26px;
+    }
+    .section2 .container .second_section_text p{
+        font-size: 15px;
+    }
+        .section3 .container .third_section_text h1{
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .section3 .container .third_section_text p{
+            font-size: 20px;
+        }
+
+        .section4 .container .section_four_text h1{
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .section4 .container .section_four_text p{
+            font-size: 20px;
+        }
+
+        .FAQ__accordian .FAQ__title{
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+        }
+        .FAQ__get__started__email h3{
+            color:white;
+            font-size: 13px;
+            font-weight: none;
+           
+            text-align: center;
+        }
+        .form__container{
+            width:100%;
+        }
+        .email__form__container{
+            width:100%;
+        }
+        section{
+            width:100%
+        }
+        .email__input{
+            width:100%;
+        }
+        .primary__button{
+            width:50%;
+            background-color: red;
+            padding:10px 20px ;
+            color:white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .homepage .homecenter h1{
+            font-size:30px;
+            padding-bottom:10px;
+        }
+        .homepage .homecenter h6{
+            font-size: 30px;
+            padding-bottom:14px;
+        }
+        .homepage .homecenter .firstp{
+            font-size: 20px;
+            padding-bottom:18px;
+        }
+        .homepage .homecenter .secondp{
+            font-size: 20px;
+            padding-bottom:15px;
+        }
+
+        
+.homepage .homecenter .emailinput input[type="email"]{
+    padding:15px;
+    font-size: 23px;
+    width:80%;
+    border:none;
+}
+.homepage .homecenter button{
+    width:30%;
+    padding:20px 10px;
+    background-color: red;
+    border:none;
+    color:white;
+    font-size: 16px;
+    
+}
+
+}
